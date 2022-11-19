@@ -24,3 +24,9 @@ const Auth: React.FC = ({ children }) => {
           console.log(err);
         });
     }
+  }, []);
+
+  return <>{children}</>;
+};
+
+export default Auth;
