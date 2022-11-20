@@ -43,4 +43,53 @@ export const AnswerPanel: React.FC<AnswerPanelProps> = ({
   const handleOnClick = (index: number) => {
     if (selectedIndex === -1) {
       // Means, if user havent attempted quiz yet
-  
+      setSelectedIndex(index);
+      if (userData) {
+        // Send the response to server
+        axios
+          .patch(
+            "/quiz",
+            {
+              track: track,
+              isCorrect: correctIndex === index,
+            },
+            {
+              headers: {
+                authorization: `Bearer ${getCookie("token")}`,
+              },
+            }
+          )
+          .then(({ data }) => {
+            console.log(data);
+          })
+          .catch((err) => {
+            console.log(err);
+          });
+
+        axios
+          .patch(
+            "/progress",
+            {
+              track: track,
+              count: userData.track[track].progress,
+            },
+            {
+              headers: {
+                authorization: `Bearer ${getCookie("token")}`,
+              },
+            }
+          )
+          .then(({ data }) => {
+            console.log(data);
+          })
+          .catch((err) => {
+            console.log(err);
+          });
+
+        const increment = correctIndex === index ? 1 : 0;
+
+        // Local Updates
+        const newUserData = update(userData, {
+          track: {
+            [track]: {
+              quizS
