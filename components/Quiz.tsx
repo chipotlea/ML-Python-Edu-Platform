@@ -92,4 +92,43 @@ export const AnswerPanel: React.FC<AnswerPanelProps> = ({
         const newUserData = update(userData, {
           track: {
             [track]: {
-              quizS
+              quizScore: { $set: userData.track[track].quizScore + increment },
+              totalQuizAnswered: {
+                $set: userData.track[track].totalQuizAnswered + 1,
+              },
+              progress: { $set: userData.track[track].progress + 20 },
+            },
+          },
+        });
+        setUserData(newUserData);
+      }
+    }
+  };
+
+  const getColor = (index: number) => {
+    const buttonStyles = [styles.button];
+
+    if (selectedIndex !== -1) {
+      if (index === correctIndex) {
+        buttonStyles.push(styles.correct);
+      } else if (index == selectedIndex) {
+        buttonStyles.push(styles.wrong);
+      }
+    }
+    return buttonStyles;
+  };
+
+  return (
+    <div className={styles.grid} {...props}>
+      {answers.map((answer, index) => (
+        <button
+          key={index}
+          onClick={() => handleOnClick(index)}
+          className={clsx(getColor(index))}
+        >
+          {answer}
+        </button>
+      ))}
+    </div>
+  );
+};
