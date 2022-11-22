@@ -200,3 +200,9 @@ This is important
 This is a caution
 
 :::
+
+:::warning
+
+This is a warning
+
+:::
