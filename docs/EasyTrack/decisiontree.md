@@ -23,4 +23,22 @@ Decision trees have one disadvantage. They suffer from the problem of overfittin
 
 - Decision trees can be used for both classification and regression problem statement but it is mostly used for classification.
 - We make use of Information gain to get the Root node and then use either Entropy or Gini impurity to determine the further splits and to determine what features to use for the split. We choose the value which is lower when we compare entropies of 2 nodes and these values will be between 0 and 1.
-- We keep splitting untill we reach the leaf node, the goal is to reach this leaf node as q
+- We keep splitting untill we reach the leaf node, the goal is to reach this leaf node as quickly as possible.
+- Decision trees have low bias and high variance which is the condition for overfitting. We can eliminate this by using Decision tree pruning or using Random forest about which we will study in the next section.
+
+With this we come to an end to the Decision Trees theory and we can go on to the Notebooks and Hands-On exercises. <br/>
+
+:::tip Implementation Walkthrough
+
+Learn this section on <a href='https://colab.research.google.com/drive/1qYanhuNI6e9-ohaNSf2G28Z34AljRyuT?usp=sharing'>Google Colab.</a>
+
+:::
+
+<Quiz>
+  <Question>Entropy values fall between?</Question>
+  <AnswerPanel
+    answers={["0 and 1", "-1 and 1", "More than 1", "None of these"]}
+    correctIndex={0}
+    track="basic"
+  />
+</Quiz>
