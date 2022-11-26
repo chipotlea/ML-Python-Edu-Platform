@@ -28,4 +28,14 @@ Let us assume that marks scored by a student in exams is only related to number 
 <img src="https://raw.githubusercontent.com/Anjali001/onestep-electron-content/main/Courses/easy_track/Linear%20Regression/regress.jpg" alt="Linear Regression Image" width="700"/>
 </p>
 
-The straight line (red color) is called best fit line or regression line. It is called best fit because the error between the predicted values and the observed values is minimum for this line. Now as we can see, a student can score 25 marks even if they don't study at all. This is called in
+The straight line (red color) is called best fit line or regression line. It is called best fit because the error between the predicted values and the observed values is minimum for this line. Now as we can see, a student can score 25 marks even if they don't study at all. This is called intercept or the value of "b". You can also see that with increase in hours of study, marks increase (as shown by the green arrows). The value of "a" in the equation represents change in units of Y per unit of X. Thus , "a" is the slope of the best fit line. As we know, slope of line is (y2-y1)/(x2-x1). Thus, a = (95-70)/(15-10) = 5 . Thus , equation becomes Y = 5X + 25 . So, now with any value of X, we can find a value of Y. For example, when X=1, Y would be 30. This is how we are able to establish a mathematical relationship between 2 variables, which can be used for predictive purposes. <br/>
+
+The above explanation was for a simple linear regression. But in real life, we generally have a large number of independent variables which are used to predict value of the dependent variable. 
+
+Mathematically, 
+<p align="center">
+<img src="https://raw.githubusercontent.com/Anjali001/onestep-electron-content/main/Courses/easy_track/Linear%20Regression/LR_formulae.jpg" alt="Linear Regression Image" width="700"/>
+ </p>
+<br/>
+
+Now, that we have learned the mathematical/statistics part behind linear regression, let's move forward and learn how this is used in Machine Learning. First, we'll go through li
