@@ -38,4 +38,42 @@ Mathematically,
  </p>
 <br/>
 
-Now, that we have learned the mathematical/statistics part behind linear regression, let's move forward and learn how this is used in Machine Learning. First, we'll go through li
+Now, that we have learned the mathematical/statistics part behind linear regression, let's move forward and learn how this is used in Machine Learning. First, we'll go through linear regression algorithm from scratch to learn how linear regression works behind the scene. Once you've completed that, move on to the second link provided below to see how you can perform linear regression using the Scikit-Learn library. <br/>
+ 
+Want to know how to implement linear regression algorithm from Scratch? Follow this link: https://colab.research.google.com/drive/1-q7YKL852EHdiNheQSXATmfBynjqT_7Y?usp=sharing
+<br/>
+
+Check this link to see how to use linear regression algorithm using Sklearn Library: https://github.com/Anjali001/GRIP_Tasks/blob/master/Linear_Regression.ipynb
+<br/>
+
+#### References:<br/>
+
+1. Basic Econometrics by Damodar N. Gujrati
+2. https://www.geeksforgeeks.org/linear-regression-python-implementation/
+3. https://machinelearningmastery.com/linear-regression-for-machine-learning/
+4. https://medium.com/analytics-vidhya/linear-regression-using-scikit-learn-in-python-5703be8e4f38
+
+<br/>
+
+:::tip Implementation Walkthrough
+
+Learn Linear Regression on <a href='https://colab.research.google.com/drive/1FVmV-l4adz4hu4fy7NXPQXc7U_iOvjsf?usp=sharing'>Google Colab.</a>
+
+:::
+
+:::tip Implementation Walkthrough
+
+Learn Polynomial Regression on <a href='https://colab.research.google.com/drive/13zr9sEBkasJVB8fnAuePUosUv-qlU8sy?usp=sharing'>Google Colab.</a>
+
+:::
+
+<br/>
+
+ <Quiz>
+  <Question>Which of the following is true about Residuals ?</Question>
+  <AnswerPanel
+    answers={["Lower is better", "Higher is better", "A or B depend on the situation", "None of these"]}
+    correctIndex={0}
+    track="basic"
+  />
+</Quiz>
