@@ -31,4 +31,15 @@ This sums up our Random Forest algorithm. Please go through the notebooks and qu
 
 :::tip Implementation Walkthrough
 
-Learn this section on <a href='https://colab.resear
+Learn this section on <a href='https://colab.research.google.com/drive/1qYanhuNI6e9-ohaNSf2G28Z34AljRyuT?usp=sharing'>Google Colab.</a>
+
+:::
+
+ <Quiz>
+  <Question>Random Forests is based upon?</Question>
+  <AnswerPanel
+    answers={["Decision Tree", "Logistic Regression", "Linear Regression", "SVM"]}
+    correctIndex={0}
+    track="basic"
+  />
+</Quiz>
