@@ -36,4 +36,15 @@ With this we come to an end to the SVM section and we can go on to the notebooks
 
 :::tip Implementation Walkthrough
 
-Learn this secti
+Learn this section on <a href='https://colab.research.google.com/drive/1BQ5BaPS2BEWZ0vP7yYpueoz0IZQw5-XS?usp=sharing'>Google Colab.</a>
+
+:::
+
+ <Quiz>
+  <Question>Drawbacks of SVM?</Question>
+  <AnswerPanel
+    answers={["More Training Time", "Logistic Regression", "Linear Regression", "SVM"]}
+    correctIndex={0}
+    track="basic"
+  />
+</Quiz>
