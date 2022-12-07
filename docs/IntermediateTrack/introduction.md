@@ -10,4 +10,6 @@ Welcome to the Intermediate track. The easy track familiarized you with all the 
 
 :::caution coming soon
 
-This section 
+This section is under development.
+
+:::
