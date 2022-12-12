@@ -1,0 +1,28 @@
+.quiz {
+  background-color: #292d3e;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.question {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.grid {
+  display: grid;
+  gap: 7px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.button {
+  height: 45px;
+  border-radius: 3px;
+  border-width: 0p
