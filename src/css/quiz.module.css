@@ -25,4 +25,21 @@
 .button {
   height: 45px;
   border-radius: 3px;
-  border-width: 0p
+  border-width: 0px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #34394e;
+  color: #bfc7d5;
+}
+
+.button:hover {
+  background-color: #3d4258;
+}
+
+.correct {
+  border: 1px solid #34f585;
+}
+
+.wrong {
+  border: 1px solid #f53474;
+}
