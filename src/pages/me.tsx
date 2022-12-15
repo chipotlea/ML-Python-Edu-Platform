@@ -24,4 +24,37 @@ function Me() {
     }
   }, [userData]);
 
-  const
+  const handleLogout = () => {
+    eraseCookie("token"); // Erases cookie.
+    setUserData(null);
+  };
+
+  const { siteConfig = {} } = context;
+
+  return (
+    <Layout
+      title={`Hello from ${siteConfig.title}`}
+      description="A community-led, open-sourced, e-learning platform for Machine Learning and Data Science, developed with ❤️ at elecTRON."
+    >
+      <main className="container">
+        {userData && (
+          <div className={styles.page}>
+            <header className={styles.header_custom}>
+              <h1>
+                Welcome back,{" "}
+                <span className={styles.colored}>{userData.username}!</span>
+              </h1>
+              <div className={styles.setting}>
+                <div className={styles.email}>
+                  Your Email:{" "}
+                  <div className={styles.colored}>{userData.email}</div>
+                </div>
+                <div className={styles.logout} onClick={handleLogout}>
+                  Logout
+                </div>
+              </div>
+            </header>
+            <div className={styles.sections}>
+              <section className={styles.section}>
+                {/* title */}
+       
