@@ -57,4 +57,28 @@ function Me() {
             <div className={styles.sections}>
               <section className={styles.section}>
                 {/* title */}
-       
+                <h1>Here's how you're doing in the ML tracks.</h1>
+                <div>
+                  {/* row of cards */}
+                  <div className="row">
+                    {/* card 1 */}
+                    <div className={clsx("col col--4")}>
+                      <div className="text--center">
+                        <div className={styles.card}>
+                          <div className={styles.title}>Basic</div>
+                          <div className={styles.progress}>
+                            Progress: {userData.track.basic.progress}%
+                          </div>
+                          <div className={styles.progress}>
+                            Quizzes Solved: {userData.track.basic.quizScore | 0}
+                            /{userData.track.basic.totalQuizAnswered | 0}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* card 2 */}
+                    <div className={clsx("col col--4")}>
+                      <div className="text--center">
+                        <div className={styles.card}>
+                          <div classNam
