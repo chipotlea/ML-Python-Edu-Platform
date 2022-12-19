@@ -81,4 +81,29 @@ function Me() {
                     <div className={clsx("col col--4")}>
                       <div className="text--center">
                         <div className={styles.card}>
-                          <div classNam
+                          <div className={styles.title}>Intermediate</div>
+
+                          <div className={styles.progress}>
+                            Progress: {userData.track.intermediate.progress}%
+                          </div>
+                          <div className={styles.progress}>
+                            Quizzes Solved:{" "}
+                            {userData.track.intermediate.quizScore}/
+                            {userData.track.intermediate.totalQuizAnswered}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* card 3 */}
+                    <div className={clsx("col col--4")}>
+                      <div className="text--center">
+                        <div className={styles.card}>
+                          <div className={styles.title}>Advanced</div>
+
+                          <div className={styles.progress}>
+                            Progress: {userData.track.advanced.progress}%
+                          </div>
+                          <div className={styles.progress}>
+                            Quizzes Solved: {userData.track.advanced.quizScore}/
+                            {userData.track.ad
