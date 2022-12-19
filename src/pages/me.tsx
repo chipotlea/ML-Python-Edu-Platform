@@ -106,4 +106,20 @@ function Me() {
                           </div>
                           <div className={styles.progress}>
                             Quizzes Solved: {userData.track.advanced.quizScore}/
-                            {userData.track.ad
+                            {userData.track.advanced.totalQuizAnswered}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        )}
+      </main>
+    </Layout>
+  );
+}
+
+export default Me;
