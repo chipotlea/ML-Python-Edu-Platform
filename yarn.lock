@@ -62,4 +62,29 @@
 "@algolia/client-common@4.8.4":
   version "4.8.4"
   resolved "https://registry.yarnpkg.com/@algolia/client-common/-/client-common-4.8.4.tgz#a1b35645253c7f96925bfe91bac486e755329b77"
-  integr
+  integrity sha512-sQlRa+KWFn+D8AOEZb4kj6RE/i6DnPwVOF4AnNf9IjNB0mUUhLWw96cQN6GDx0KE4lhW67t+qR39ZuuDBgR9ww==
+  dependencies:
+    "@algolia/requester-common" "4.8.4"
+    "@algolia/transporter" "4.8.4"
+
+"@algolia/client-recommendation@4.8.4":
+  version "4.8.4"
+  resolved "https://registry.yarnpkg.com/@algolia/client-recommendation/-/client-recommendation-4.8.4.tgz#1aaa9735e96865ff06321a8bc850829445c945d1"
+  integrity sha512-CE0CVqLGWotVOaUXyU33FVD9FZ/7rqcbwFPH5MgSjVdE0B1YWVedhR0s2BNKodXLcIGVLVYfXR05CLdvOlTw+A==
+  dependencies:
+    "@algolia/client-common" "4.8.4"
+    "@algolia/requester-common" "4.8.4"
+    "@algolia/transporter" "4.8.4"
+
+"@algolia/client-search@4.8.4":
+  version "4.8.4"
+  resolved "https://registry.yarnpkg.com/@algolia/client-search/-/client-search-4.8.4.tgz#0320c4a109d2cc220a9d1002f9ec64655a4494dc"
+  integrity sha512-eH2tRPnDU3tqpp0BSqP6coRRQe8fceqsupuf/1ho+Mcs5DM13mEuFmNOyPywHRlYLVPmbbCPRhDr5rB8QoN7XQ==
+  dependencies:
+    "@algolia/client-common" "4.8.4"
+    "@algolia/requester-common" "4.8.4"
+    "@algolia/transporter" "4.8.4"
+
+"@algolia/logger-common@4.8.4":
+  version "4.8.4"
+  resolved "https://regis
