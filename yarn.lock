@@ -1313,4 +1313,27 @@
 
 "@docusaurus/preset-classic@2.0.0-alpha.70":
   version "2.0.0-alpha.70"
-  resolved "https://registry.yarnpkg.com/@docusaurus/preset-classic/-/preset-classic-2.0.0-alpha.70.tgz#7857f606eecdbaa34f8df83d62812
+  resolved "https://registry.yarnpkg.com/@docusaurus/preset-classic/-/preset-classic-2.0.0-alpha.70.tgz#7857f606eecdbaa34f8df83d62812908be02126f"
+  integrity sha512-Zx98KryJjHiqzGisWKR0glXl0HXuf/YbcK9yUl6ySyS+6cIMAuGMS0HGLgbvvEmYjywz7nMLpijzGderEOihjQ==
+  dependencies:
+    "@docusaurus/core" "2.0.0-alpha.70"
+    "@docusaurus/plugin-content-blog" "2.0.0-alpha.70"
+    "@docusaurus/plugin-content-docs" "2.0.0-alpha.70"
+    "@docusaurus/plugin-content-pages" "2.0.0-alpha.70"
+    "@docusaurus/plugin-debug" "2.0.0-alpha.70"
+    "@docusaurus/plugin-google-analytics" "2.0.0-alpha.70"
+    "@docusaurus/plugin-google-gtag" "2.0.0-alpha.70"
+    "@docusaurus/plugin-sitemap" "2.0.0-alpha.70"
+    "@docusaurus/theme-classic" "2.0.0-alpha.70"
+    "@docusaurus/theme-search-algolia" "2.0.0-alpha.70"
+
+"@docusaurus/theme-classic@2.0.0-alpha.70":
+  version "2.0.0-alpha.70"
+  resolved "https://registry.yarnpkg.com/@docusaurus/theme-classic/-/theme-classic-2.0.0-alpha.70.tgz#58e2dceee1076980700865df460e771e8d78cb68"
+  integrity sha512-lKU+fgSd08fo3LNYTw31Wty7RgAdFm8bEOwBNkKZcCFnatTSG4qyDbrDZclCQT/SpXSv9XIEKUc0irg2IH6Qrg==
+  dependencies:
+    "@docusaurus/core" "2.0.0-alpha.70"
+    "@docusaurus/plugin-content-blog" "2.0.0-alpha.70"
+    "@docusaurus/plugin-content-docs" "2.0.0-alpha.70"
+    "@docusaurus/plugin-content-pages" "2.0.0-alpha.70"
+    "@docusaurus/t
