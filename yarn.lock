@@ -1336,4 +1336,35 @@
     "@docusaurus/plugin-content-blog" "2.0.0-alpha.70"
     "@docusaurus/plugin-content-docs" "2.0.0-alpha.70"
     "@docusaurus/plugin-content-pages" "2.0.0-alpha.70"
-    "@docusaurus/t
+    "@docusaurus/theme-common" "2.0.0-alpha.70"
+    "@docusaurus/types" "2.0.0-alpha.70"
+    "@docusaurus/utils" "2.0.0-alpha.70"
+    "@docusaurus/utils-validation" "2.0.0-alpha.70"
+    "@mdx-js/mdx" "^1.6.21"
+    "@mdx-js/react" "^1.6.21"
+    "@types/react-toggle" "^4.0.2"
+    clsx "^1.1.1"
+    copy-text-to-clipboard "^2.2.0"
+    infima "0.2.0-alpha.18"
+    joi "^17.2.1"
+    lodash "^4.17.19"
+    parse-numeric-range "^1.2.0"
+    prism-react-renderer "^1.1.1"
+    prismjs "^1.22.0"
+    prop-types "^15.7.2"
+    react-router-dom "^5.2.0"
+    react-toggle "^4.1.1"
+
+"@docusaurus/theme-common@2.0.0-alpha.70":
+  version "2.0.0-alpha.70"
+  resolved "https://registry.yarnpkg.com/@docusaurus/theme-common/-/theme-common-2.0.0-alpha.70.tgz#fa42aef2ec1b535d37f72fc978a3138c49667a37"
+  integrity sha512-Ge/dLGPCJhtyvumSMg0BlWcF00d1Qd2KnHf8kL/0nTxe257yNTHIOK95LKhIPAdcVgxG+ge9N0XcBm4KaubASQ==
+  dependencies:
+    "@docusaurus/core" "2.0.0-alpha.70"
+    "@docusaurus/plugin-content-blog" "2.0.0-alpha.70"
+    "@docusaurus/plugin-content-docs" "2.0.0-alpha.70"
+    "@docusaurus/plugin-content-pages" "2.0.0-alpha.70"
+    "@docusaurus/types" "2.0.0-alpha.70"
+
+"@docusaurus/theme-search-algolia@2.0.0-alpha.70":
+  ve
