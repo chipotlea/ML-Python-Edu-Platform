@@ -1367,4 +1367,31 @@
     "@docusaurus/types" "2.0.0-alpha.70"
 
 "@docusaurus/theme-search-algolia@2.0.0-alpha.70":
-  ve
+  version "2.0.0-alpha.70"
+  resolved "https://registry.yarnpkg.com/@docusaurus/theme-search-algolia/-/theme-search-algolia-2.0.0-alpha.70.tgz#7f41241e0d22e89438817a3d4a27d880116c06c1"
+  integrity sha512-xuoWZ+HUKzn1A5vPlNZM8mtyRL5uo15o34OX/i7HkTRmBVymWO1bBE0lECfDVJU2JUYGmwjpDXhZzNLDZmZRWg==
+  dependencies:
+    "@docsearch/react" "^3.0.0-alpha.31"
+    "@docusaurus/core" "2.0.0-alpha.70"
+    "@docusaurus/theme-common" "2.0.0-alpha.70"
+    "@docusaurus/utils" "2.0.0-alpha.70"
+    algoliasearch "^4.0.0"
+    algoliasearch-helper "^3.1.1"
+    clsx "^1.1.1"
+    eta "^1.11.0"
+    joi "^17.2.1"
+    lodash "^4.17.19"
+
+"@docusaurus/types@2.0.0-alpha.70":
+  version "2.0.0-alpha.70"
+  resolved "https://registry.yarnpkg.com/@docusaurus/types/-/types-2.0.0-alpha.70.tgz#44b98290919cca2505aea334daecf762c7537d10"
+  integrity sha512-QoHmMiJhRDq5P/4o3eUIiJebdwRjShFlal01DST5B8MZo4k0ogl57FNHqJvIHc93NgonZzFlvC/auLlBnc/d4Q==
+  dependencies:
+    "@types/webpack" "^4.41.0"
+    commander "^4.0.1"
+    querystring "0.2.0"
+    webpack-merge "^4.2.2"
+
+"@docusaurus/utils-validation@2.0.0-alpha.70":
+  version "2.0.0-alpha.70"
+  resolved "https://registry.yarnpkg.com/@docusaurus/utils-validation/-/utils-validation
