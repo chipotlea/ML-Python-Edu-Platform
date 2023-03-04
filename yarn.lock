@@ -1394,4 +1394,30 @@
 
 "@docusaurus/utils-validation@2.0.0-alpha.70":
   version "2.0.0-alpha.70"
-  resolved "https://registry.yarnpkg.com/@docusaurus/utils-validation/-/utils-validation
+  resolved "https://registry.yarnpkg.com/@docusaurus/utils-validation/-/utils-validation-2.0.0-alpha.70.tgz#04f24a7b3a4568ca164a8c1a4cf0caa8ba5caa6e"
+  integrity sha512-GJonaRjiJtlCk1+RfKA9f0YwRsSRGFMVbl6DrFidTgs4FmRb0hQsN4fnllsBvBJtbDZYwPTQ3T7c4cKJ/Ll7bQ==
+  dependencies:
+    "@docusaurus/utils" "2.0.0-alpha.70"
+    chalk "^3.0.0"
+    joi "^17.2.1"
+
+"@docusaurus/utils@2.0.0-alpha.70":
+  version "2.0.0-alpha.70"
+  resolved "https://registry.yarnpkg.com/@docusaurus/utils/-/utils-2.0.0-alpha.70.tgz#01779efcb4ff3bf39f9e74b3ef06fc2c8a43633a"
+  integrity sha512-xNSUcE7fGcneH00CPCEY0SP5V7H6pLEcu620UiU/m1367tCMsmv+MZcnII2ACcjAtvhjS22v/KLippM3VeTXqQ==
+  dependencies:
+    "@docusaurus/types" "2.0.0-alpha.70"
+    chalk "^3.0.0"
+    escape-string-regexp "^2.0.0"
+    fs-extra "^9.0.1"
+    gray-matter "^4.0.2"
+    lodash "^4.17.20"
+    lodash.camelcase "^4.3.0"
+    lodash.kebabcase "^4.1.1"
+    resolve-pathname "^3.0.0"
+
+"@endiliey/static-site-generator-webpack-plugin@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@endiliey/static-site-generator-webpack-plugin/-/static-site-generator-webpack-plugin-4.0.0.tgz#94bfe58fd83aeda355de797fcb5112adaca3a6b1"
+  integrity sha512-3MBqYCs30qk1OBRC697NqhGouYbs71D1B8hrk/AFJC6GwF2QaJOQZtA1JYAaGSe650sZ8r5ppRTtCRXepDWlng==
+  dependen
