@@ -7478,4 +7478,32 @@ postcss-load-config@^2.0.0:
 postcss-loader@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-3.0.0.tgz#6b97943e47c72d845fa9e03f273773d4e8dd6c2d"
-  integrity sha512-cLWoDEY5OwHcAjDnkyRQzAXfs2jrKjXpO/HQFcc5b5u/r7aa471wd
+  integrity sha512-cLWoDEY5OwHcAjDnkyRQzAXfs2jrKjXpO/HQFcc5b5u/r7aa471wdmChmwfnv7x2u840iat/wi0lQ5nbRgSkUA==
+  dependencies:
+    loader-utils "^1.1.0"
+    postcss "^7.0.0"
+    postcss-load-config "^2.0.0"
+    schema-utils "^1.0.0"
+
+postcss-logical@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-logical/-/postcss-logical-3.0.0.tgz#2495d0f8b82e9f262725f75f9401b34e7b45d5b5"
+  integrity sha512-1SUKdJc2vuMOmeItqGuNaC+N8MzBWFWEkAnRnLpFYj1tGGa7NqyVBujfRtgNa2gXR+6RkGUiB2O5Vmh7E2RmiA==
+  dependencies:
+    postcss "^7.0.2"
+
+postcss-media-minmax@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-media-minmax/-/postcss-media-minmax-4.0.0.tgz#b75bb6cbc217c8ac49433e12f22048814a4f5ed5"
+  integrity sha512-fo9moya6qyxsjbFAYl97qKO9gyre3qvbMnkOZeZwlsW6XYFsvs2DMGDlchVLfAd8LHPZDxivu/+qW2SMQeTHBw==
+  dependencies:
+    postcss "^7.0.2"
+
+postcss-merge-idents@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-merge-idents/-/postcss-merge-idents-4.0.1.tgz#b7df282a92f052ea0a66c62d8f8812e6d2cbed23"
+  integrity sha512-43S/VNdF6II0NZ31YxcvNYq4gfURlPAAsJW/z84avBXQCaP4I4qRHUH18slW/SOlJbcxxCobflPNUApYDddS7A==
+  dependencies:
+    cssnano-util-same-parent "^4.0.0"
+    has "^1.0.0"
+    postcss "^7.
