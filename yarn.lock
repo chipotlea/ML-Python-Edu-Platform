@@ -8228,4 +8228,26 @@ react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
 react-json-view@^1.19.1:
   version "1.20.4"
   resolved "https://registry.yarnpkg.com/react-json-view/-/react-json-view-1.20.4.tgz#c993baa28bf2a16110f61e4434af3b4fecb416d8"
-  integrity s
+  integrity sha512-QBhb1STnWif+wY8Bsl+ISyDnKTocN/37gSauq8MNHjvu7UOLmdTAgynnC5/rrPh1sAdakg7oIhxU0l660xQg+Q==
+  dependencies:
+    flux "^4.0.1"
+    react-base16-styling "^0.6.0"
+    react-lifecycles-compat "^3.0.4"
+    react-textarea-autosize "^6.1.0"
+
+react-lifecycles-compat@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
+  integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-loadable-ssr-addon@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/react-loadable-ssr-addon/-/react-loadable-ssr-addon-0.3.0.tgz#ae9b2d3b11721930f8d8255476d288c0e9f9290f"
+  integrity sha512-E+lnmDakV0k6ut6R2J77vurwCOwTKEwKlHs9S62G8ez+ujecLPcqjt3YAU8M58kIGjp2QjFlZ7F9QWkq/mr6Iw==
+  dependencies:
+    "@babel/runtime" "^7.10.3"
+
+react-loadable@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/react-loadable/-/react-loadable-5.5.0.tgz#582251679d3da86c32aae2c8e689c59f1196d8c4"
+  integrity sha512-C8Aui0ZpMd4KokxRdVAm2bQtI03k2RMRNzOB+IipV3yxFTSVICv7WoUr5L9ALB5BmKO1iHgZtWM8
